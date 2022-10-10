@@ -1,0 +1,137 @@
+*{
+    margin:0;
+  }
+  .top-bar{
+    width:100%;
+    height:40px;
+    background-color:white;
+    font-family : helvetica, arial, sans-serif;
+  }
+  .fixed-width{
+    width:1000px;
+    margin:0 auto;
+  }
+  #logo{
+    float:left;
+    padding-top:6px;
+    border-right:1px solid black;
+    padding-right:10px;
+    padding-bottom:2px;
+  }
+  #sign-in{
+    float:left;
+    display:flex;
+    padding:10px;
+    font-weight:bold;
+    border-right:1px solid black;
+  }
+  .top-bar ul{
+    margin:0;
+    padding:0;
+  }
+  .top-bar ul li{
+    float:left;
+    list-style:none;
+    border-right:1px solid black;
+    padding-bottom:12px;
+    padding:10px 20px 10px 20px;
+  }
+  #search-box{
+    float:left;
+    width:200px;
+    padding:7px;
+  }
+  
+  #search-box{
+    color: #555;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #heyyou{
+      background: gray url(https://tse1.mm.bing.net/th?id=OIP.NPPzQguxZVlOvXqD3HaZBQHaHc&pid=Api&P=0) left no-repeat;
+      padding-right: 17px;
+    background-position:center;
+  }
+  .news-bar{
+    background-color:#BB1919;
+    width:100%;
+    height:60px;
+  }
+  #head-news{
+    font-family:arial;
+    font-size:40px;
+    color:white;
+    padding-top:8px;
+  }
+  .category-bar{
+    margin:0;
+    padding:0;
+    background-color:#A91717;
+    width:100%;
+    height:30px;
+  }
+  
+  .category-bar ul{
+   margin:0;
+   padding:0;
+  }
+  .category-bar ul li{
+    font-family : helvetica, arial, sans-serif;
+     list-style:none;
+    float:left;
+    padding:4px 10px;
+    color:white;
+  }
+  .location-bar{
+    width:100%;
+    height:40px;
+    background:white;
+  }
+  .location-bar ul{
+    margin:0;
+    padding:0;
+  }
+  .location-bar ul li{
+    float:left;
+    list-style:none;
+    font-family : helvetica, arial, sans-serif;
+    padding:0px 15px;
+   
+    margin-top:4px;
+  }
+  .location-bar ul li:not(last-child){
+    border-right:1px solid gray;
+  }
+  .content-bar h1{
+    color:#1167AB;
+  }
+  .content-bar img{
+    float:right;
+    position:relative;
+    right:300px;
+  }
+  .content-bar p{
+    width:215px;
+  }
+  .content-bar a{
+    text-decoration:none;
+    line-height:1.5em;
+  }
+  #content-links{
+    margin-top:30px;
+  }
+  .sidebar{
+    float:right;
+    position:relative;
+    bottom:340px;
+    right:200px;
+    border-left:1px solid black;
+    padding:0 0 0 10px;
+  }
+  .sidebar img{
+    position:relative;
+    right:12px;
+    padding:10px;
+  
+  }
